@@ -2,8 +2,6 @@
 import "@fontsource/poppins/600.css"; 
 
 const Admin = () => {
-
-
   return (
     <>
       {/* Main Page Content */}
