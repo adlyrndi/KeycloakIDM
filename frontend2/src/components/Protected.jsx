@@ -59,7 +59,7 @@ const Protected = ({ token }) => {
   if (error) return <div style={{ color: "red", textAlign: "center", marginTop: "20px" }}>{error}</div>;
 
   const isAdmin = data?.realm_access?.roles.includes("ADMIN");
-  const isManager = data?.realm_access?.roles.includes("USER");
+  const isManager = data?.realm_access?.roles.includes("MANAGER");
   const isUser = data?.realm_access?.roles.includes("USER");
 
   return (

@@ -6,8 +6,7 @@ let data = {
     "Manage user",
     "Meeting",
     "Vendor meet",
-    "Requirements gathering",
-    
+    "Requirements gathering",  
   ],
   "renadi@gmail.com": [
     "chek",
